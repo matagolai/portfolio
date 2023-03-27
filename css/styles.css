@@ -1,0 +1,120 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    position: relative;
+}
+
+.home {
+    padding: 50px 0 50px 0;
+    text-align: center;
+}
+
+/* Background & Font Color */
+
+
+.white-section {
+    background-color: #F2F2F2;
+    color: #454545;
+}
+
+.blue-section {
+    background: linear-gradient(45deg, #41329B, #6EA5C3);
+    color: #F2F2F2;
+}
+
+
+
+/* Font Size & Weight */
+.home h2 {
+    font-weight: 400;
+}
+
+.home h1 {
+    font-weight: 700;
+    font-size: 4em;
+}
+
+.white-section h2, .blue-section h2 {
+    font-weight: 700;
+    padding: 70px 0 40px 0;
+}
+
+.white-section hr, .blue-section hr {
+    
+    width: 3em;
+    margin: auto;
+}
+
+.about-me h3 {
+    padding: 25px 0 10px 0;
+    font-size: 1.5em;
+    font-weight: 700;
+}
+
+.nav-item {
+    font-size: 20px;
+    margin: 0 30px 0 0;
+}
+
+.contact-me h1 {
+    font-size: 75px;
+    font-weight: 700;   
+}
+
+.work-hr {
+    border: dotted;
+    border-bottom: none;
+    border-width: 10px;
+    font-size: 50px;
+    width: 5em;
+}
+
+
+/* Image */
+.headshot {
+    width: 500px;
+    border-radius: 300px;
+}
+
+.contact-me img {
+    width: 50px;
+    padding: 20px 0;
+
+}
+
+/* Skills */
+.skill-card {
+    margin: 50px 0;
+    border-radius: 30px;
+}
+
+/* Carousel */
+.carousel {
+    width: 70%;
+    margin: auto;
+    padding: 0 10% 5%;
+}
+
+/* Work Experience */
+.work-list {
+    padding: 50px 0;
+}
+
+
+/* Contact */
+.contact-me {
+    padding: 10% 0;
+}
+
+/* Footer */
+footer {
+    padding: 10px 0;
+}
+
+/* Media Queries */
+
+@media (max-width: 1300px) {
+    .carousel {
+        width: 100%;
+    }
+}
+
