@@ -71,7 +71,7 @@ body {
 
 /* Image */
 .headshot {
-    width: 500px;
+    width: 30em;
     border-radius: 300px;
 }
 
@@ -111,6 +111,12 @@ footer {
 }
 
 /* Media Queries */
+
+@media (max-width: 535px) {
+    .headshot {
+        width: 100%;
+    }
+}
 
 @media (max-width: 1300px) {
     .carousel {
